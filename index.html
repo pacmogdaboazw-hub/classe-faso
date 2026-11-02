@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Classe Faso, la plateforme éducative pour apprendre au Burkina Faso.">
+  <title>Classe Faso | Apprendre autrement</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f8f6;
+      color: #18352a;
+    }
+
+    header {
+      background: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 12px #00000010;
+    }
+
+    .logo {
+      font-size: 23px;
+      font-weight: bold;
+      color: #087443;
+    }
+
+    .hero {
+      padding: 75px 8%;
+      background: linear-gradient(135deg, #087443, #064d36);
+      color: white;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 6vw, 52px);
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 14px 25px;
+      background: #f4c542;
+      color: #18352a;
+      text-decoration: none;
+      border-radius: 9px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 55px 7%;
+      text-align: center;
+    }
+
+    main h2 {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    .intro {
+      color: #617269;
+      line-height: 1.6;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 20px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px #0000000c;
+    }
+
+    .card .emoji {
+      font-size: 35px;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+      color: #087443;
+    }
+
+    .card p {
+      color: #617269;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: #123b2b;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">📚 CLASSE FASO</div>
+    <span>Éducation pour tous</span>
+  </header>
+
+  <section class="hero">
+    <h1>Bienvenue sur Classe Faso</h1>
+    <p>
+      Apprends, progresse et prépare ton avenir.
+      Une plateforme éducative pensée pour les élèves
+      et les professeurs du Burkina Faso.
+    </p>
+    <a href="#espaces" class="button">Découvrir la plateforme</a>
+  </section>
+
+  <main id="espaces">
+    <h2>Apprendre autrement</h2>
+    <p class="intro">
+      Toutes les ressources pour accompagner ta réussite scolaire.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="emoji">🎓</div>
+        <h3>Espace élève</h3>
+        <p>Retrouve tes cours, exercices et devoirs.</p>
+      </article>
+
+      <article class="card">
+        <div class="emoji">👨‍🏫</div>
+        <h3>Espace professeur</h3>
+        <p>Prépare et partage tes ressources pédagogiques.</p>
+      </article>
+
+      <article class="card">
+        <div class="emoji">📖</div>
+        <h3>Bibliothèque</h3>
+        <p>Découvre des livres et des ressources pour apprendre.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>CLASSE FASO © 2026</p>
+    <p>Apprendre aujourd'hui, réussir demain.</p>
+  </footer>
+
+</body>
+</html>
